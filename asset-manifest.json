@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/arithmetic/static/css/main.07a51e9c.css",
+    "main.js": "/arithmetic/static/js/main.6f6cb855.js",
+    "static/media/background.png": "/arithmetic/static/media/background.bc0f7e2dd7e061d8d133.png",
+    "index.html": "/arithmetic/index.html",
+    "main.07a51e9c.css.map": "/arithmetic/static/css/main.07a51e9c.css.map",
+    "main.6f6cb855.js.map": "/arithmetic/static/js/main.6f6cb855.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07a51e9c.css",
+    "static/js/main.6f6cb855.js"
+  ]
+}
