@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import '@styles/Character-list-container.css';
-import Display_icon from '@scripts/commons/Display-icon';
+import '../styles/Character-list-container.css';
+import Display_icon from './commons/Display-icon';
 import Character_data from './commons/character-list.json';
 
 const Character_list_container = () => {
