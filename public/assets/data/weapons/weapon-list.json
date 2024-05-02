@@ -1,0 +1,10 @@
+[
+    {
+        "name": "staff-of-homa",
+        "name_jp": "護摩の杖",
+        "name_hira":"ごまのつえ",
+        "rarity": "5",
+        "weapon": "polearm",
+        "icon": "weapons/staff-of-homa/staff-of-homa.png"
+    }
+]

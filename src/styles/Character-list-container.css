@@ -1,0 +1,57 @@
+.Character_list_container {
+    width: 23vw;
+    min-width: 400px;
+    height: 100vh;
+    border: 2px solid #DCCAA8;
+    border-radius: 10px;
+    background-color: #313948;
+    display: flex;
+    flex-direction: column;
+    padding: 0.7%;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+.icon_button {
+    position: relative;
+    border: 2px solid #313948;
+    border-radius: 12px;
+    display: flex;
+    width: 23%;
+    aspect-ratio: 1/1.2;
+    cursor: pointer;
+    
+    .rarity_background {
+        position: relative;
+        width: 100%;
+        aspect-ratio: 1/1.2;
+        border-radius: 10px;
+    }
+    .character_icon {
+        position: absolute;
+        left: 0;
+        border-radius: 10px;
+        width: 100%;
+        aspect-ratio: 1/1.2;
+        object-fit: cover;
+    }
+    .element_icon {
+        width: 30%;
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        pointer-events: none;
+        user-select: none;
+    }
+}
+
+.icon_button:hover {
+    border: 2px solid #FFFFFF;
+    transform: scale(1.05);
+    transition: 0.1s;
+}
+
+.icon_button:active {
+    transform-origin: 50% 50%;
+    transform: scale(1.0);
+}
