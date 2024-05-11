@@ -1,0 +1,47 @@
+.Condition_button {
+    width: fit-content;
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid #7E6C5C;
+    border-radius: 10px;
+    background: #ECE5D8;
+    color: #976632;
+
+    padding: 0.7% 0 0.7% 0;
+    cursor: pointer;
+    transition: 0.1s;
+
+    span {
+        cursor: pointer;
+        padding: 10px;
+    }
+}
+
+.Condition_button:hover {
+    color: #FFFFFF;
+    background: #b9a089;
+}
+.Condition_button:active {
+    color: #7E6C5C;
+    background: #DCCAA8;
+}
+.Condition_button.active {
+    color: #ECE5D8;
+    background: #7E6C5C;
+    appearance: none;
+}
+
+.Condition_container {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #DCCAA8;
+    margin: 1%;
+
+    .Condition_title {
+        color: #ECE5D8;
+    }
+
+    .Button_container {
+        margin-bottom: 2%;
+    }
+}

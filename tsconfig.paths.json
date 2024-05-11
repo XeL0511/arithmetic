@@ -1,9 +1,0 @@
-{
-    "compilerOptions": {
-        "baseUrl": "./",
-        "paths": {
-            "@scripts/*": ["./src/scripts/*"],
-            "@styles/*": ["./src/styles/*"]
-        }
-    }
-}

@@ -5,11 +5,24 @@
     border: 2px solid #DCCAA8;
     border-radius: 10px;
     background-color: #313948;
-    display: flex;
-    flex-direction: column;
-    padding: 0.7%;
     user-select: none;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.Character_list {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    overflow: auto;
+    user-select: none;
+    scrollbar-width: thin;
+    scrollbar-color: #9DA0A5 #313948;
 }
 
 .icon_button {
@@ -17,7 +30,6 @@
     border: 2px solid #313948;
     border-radius: 12px;
     display: flex;
-    width: 23%;
     aspect-ratio: 1/1.2;
     cursor: pointer;
     
@@ -26,6 +38,10 @@
         width: 100%;
         aspect-ratio: 1/1.2;
         border-radius: 10px;
+        
+        vertical-align: bottom;
+        pointer-events: none;
+        user-select: none;
     }
     .character_icon {
         position: absolute;
@@ -34,6 +50,10 @@
         width: 100%;
         aspect-ratio: 1/1.2;
         object-fit: cover;
+        
+        vertical-align: bottom;
+        pointer-events: none;
+        user-select: none;
     }
     .element_icon {
         width: 30%;
@@ -42,16 +62,21 @@
         left: 3px;
         pointer-events: none;
         user-select: none;
+        
+        vertical-align: bottom;
+        pointer-events: none;
+        user-select: none;
     }
 }
 
 .icon_button:hover {
     border: 2px solid #FFFFFF;
-    transform: scale(1.05);
-    transition: 0.1s;
+    transform: scale(1.01);
+    transition: 0.05s;
 }
 
 .icon_button:active {
+    border: 2px solid #FFFFFF;
     transform-origin: 50% 50%;
-    transform: scale(1.0);
+    transform: scale(0.95);
 }
